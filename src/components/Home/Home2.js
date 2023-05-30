@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
-import mynum from "../../Assets/DrAbdessabourNumber.vcf";
 import Tilt from "react-parallax-tilt";
 import { FaMapMarkerAlt,FaLinkedinIn,FaReddit } from "react-icons/fa"
 import {
-  AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
@@ -52,7 +50,7 @@ function Home2() {
                     <FaMapMarkerAlt/>
               </div>
               <h4 style={{color:'white' }}>Oujda, Maroc</h4>
-              <a type="button" className="btn btn-dark" href={mynum} download='DrAbdessabourNumber.vcf'>Exchange Contact</a>
+              <a type="button" className="btn btn-dark" href="https://drive.google.com/uc?export=download&id=1hGGSuz6vf3W9WYiRvuHD3nxljFAs2pb1">Exchange Contact</a>
             </div>
           </Col>
         </Row>
