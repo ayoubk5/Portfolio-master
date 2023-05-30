@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
-import mynum from "../../Assets/._Dr Abdessabour Sebbar.vcf";
+import mynum from "../../Assets/DrAbdessabourNumber.vcf";
 import Tilt from "react-parallax-tilt";
 import { FaMapMarkerAlt,FaLinkedinIn,FaReddit } from "react-icons/fa"
 import {
