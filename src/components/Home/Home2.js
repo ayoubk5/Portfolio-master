@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
-import { FaMapMarkerAlt,FaLinkedinIn,FaReddit } from "react-icons/fa"
+import { FaLinkedinIn,FaReddit } from "react-icons/fa"
+import {SiGmail} from "react-icons/si"
 import {
   AiOutlineTwitter,
   AiFillInstagram,
@@ -14,9 +14,9 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              QU'EST-CE <span className="purple"> QUE </span> JE FAIS ?
             </h1>
             <p className="home-about-body">
             Médecin Généraliste fort de plus de 2 années d'expérience dans le domaine médical
@@ -42,25 +42,26 @@ function Home2() {
             </p>
           </Col>
           <Col style={{display:'flex',flexDirection:'column',gap:'40px'}}>
-            <Tilt>
-              <img src={myImg} style={{height:'300px',width:'300px',marginTop:'100px'}} className="img-fluid" alt="avatar" />
-            </Tilt>
-            <div className="social-icons" >
-              <div className="icon-colour  home-social-icons" style={{marginBottom:"20px"}}>
-                    <FaMapMarkerAlt/>
-              </div>
-              <h4 style={{color:'white' }}>Oujda, Maroc</h4>
-              <a type="button" className="btn btn-dark" href="https://drive.google.com/uc?export=download&id=1hGGSuz6vf3W9WYiRvuHD3nxljFAs2pb1">Exchange Contact</a>
-            </div>
+            
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>PRÊt A <span className="purple">PARLER?</span></h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Contactez moi :
             </p>
-            <ul className="home-about-social-links">    
+            <ul className="home-about-social-links"> 
+            <li className="social-icons">
+                <a
+                  href="mailto:dr.abdessabour@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiGmail />
+                </a>
+              </li>   
               <li className="social-icons">
                 <a
                   href="https://www.reddit.com/u/AbdessabourSe/?utm_source=share&utm_medium=ios_app&utm_name=ioscss&utm_content=1&utm_term=1"
