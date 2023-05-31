@@ -47,7 +47,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>PRÊt A <span className="purple">PARLER?</span></h1>
+            <h1>PRÊT A <span className="purple">PARLER?</span></h1>
             <p>
               Contactez moi :
             </p>
@@ -62,7 +62,7 @@ function Home2() {
                   <SiGmail />
                 </a>
               </li>   
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.reddit.com/u/AbdessabourSe/?utm_source=share&utm_medium=ios_app&utm_name=ioscss&utm_content=1&utm_term=1"
                   target="_blank"
@@ -71,7 +71,7 @@ function Home2() {
                 >
                   <FaReddit />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
                   href="https://twitter.com/Abdessabourseb"
